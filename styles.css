@@ -1,0 +1,16 @@
+
+
+.parent{
+    display:flex;
+    flex-wrap: wrap;;
+    
+}
+
+.div1,.div2,.div3{
+    border:1px solid red;
+    flex-grow:1;  /*for occupy whole width i.e. 100%*/
+    flex-basis:200px;
+
+   text-align: center;
+}
+
